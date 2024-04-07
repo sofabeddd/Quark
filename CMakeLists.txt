@@ -7,8 +7,9 @@ set(CMAKE_CXX_VISIBILITY_PRESET hidden)
 project(Quark VERSION 1.0.0)
 
 add_library(${PROJECT_NAME} SHARED
-    src/main.cpp
-    # Add your cpp files here
+        src/main.cpp
+        src/UI/ChangelogPopup.cpp
+        src/UI/ChangelogPopup.hpp
 )
 
 if (NOT DEFINED ENV{GEODE_SDK})
@@ -19,4 +20,4 @@ endif()
 
 add_subdirectory($ENV{GEODE_SDK} ${CMAKE_CURRENT_BINARY_DIR}/geode)
 
-setup_geode_mod(${PROJECT_NAME})
+setup_geode_mod({PROJECT_NAME} EXTERNALS geode.node-ids:1.8.1)

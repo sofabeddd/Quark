@@ -37,6 +37,12 @@
 			"type": "bool",
 			"default": false
 		},
+		"i-did-the-spin-offs": {
+			"name": "I did the spin-offs",
+			"description": "Unlocks all the spin-off icons.\n<cr>note: this change is permanent after saving</c>",
+			"type": "bool",
+			"default": false
+		},
 		"im-nosy": {
 			"name": "I'm Nosy",
 			"description": "Allows you to view a user's comment history regardless of whether they have it disabled or not.",
@@ -49,6 +55,9 @@
 			"type": "bool",
 			"default": false
 		}
+	},
+	"resources": {
+		"sprites": ["resources/sprites/*.png"]
 	},
 	"tags": ["Cosmetic", "Customization", "Enhancement"]
 }
