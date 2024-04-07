@@ -1,0 +1,54 @@
+{
+	"description": "A bunch of small changes I threw together into a mod.",
+	"developer": "sofabeddd",
+	"geode": "2.0.0-beta.23",
+	"id": "sofabeddd.quark",
+	"name": "Quark",
+	"repository": "https://github.com/sofabeddd/Quark",
+	"version": "v1.0.0",
+	"dependencies": [
+		{
+			"id": "geode.node-ids",
+			"importance": "required",
+			"version": ">=v1.8.1"
+		}
+	],
+	"gd": {
+		"android": "2.205",
+		"mac": "2.200",
+		"win": "2.204"
+	},
+	"settings": {
+		"cleanup-menu": {
+			"name": "Cleanup Menu",
+			"description": "Makes the main menu makes it more visually appealing.",
+			"type": "bool",
+			"default": true
+		},
+		"glow-colored-trails": {
+			"name": "Glow Colored Trails",
+			"description": "Allows users to utilize their glow color for their wave and player trail instead of the secondary color.",
+			"type": "bool",
+			"default": false
+		},
+		"hide-ship-trail": {
+			"name": "Hide Ship Trail",
+			"description": "Hides player trail in ship so you can see your ship fire better.",
+			"type": "bool",
+			"default": false
+		},
+		"im-nosy": {
+			"name": "I'm Nosy",
+			"description": "Allows you to view a user's comment history regardless of whether they have it disabled or not.",
+			"type": "bool",
+			"default": false
+		},
+		"same-dual-color": {
+			"name": "Same Dual Color",
+			"description": "Colors both dual icons with the player one colors.",
+			"type": "bool",
+			"default": false
+		}
+	},
+	"tags": ["Cosmetic", "Customization", "Enhancement"]
+}
